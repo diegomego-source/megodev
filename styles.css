@@ -12,7 +12,10 @@ ul{list-style:none}
 .nav{position:sticky;top:0;z-index:50;background:rgba(7,4,15,.85);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;height:66px;gap:20px}
 .logo{display:flex;align-items:center;gap:8px;font-weight:800;letter-spacing:.02em}
-.logo span{color:#c4b5fd;font-weight:500}
+.logo-img{height:30px;width:auto;display:block}
+.logo b{font-size:1.3rem;font-weight:800;letter-spacing:-.01em}
+.logo b span{background:linear-gradient(90deg,#7c3aed,#a855f7);-webkit-background-clip:text;background-clip:text;color:transparent}
+.pm{width:100px;height:auto;margin:14px auto 8px;display:block}
 .mark{font-style:normal;display:inline-grid;place-items:center;width:28px;height:28px;border-radius:8px;background:linear-gradient(135deg,var(--p3),#c084fc);font-weight:800;color:#fff}
 .mark.big{width:54px;height:54px;font-size:1.6rem;border-radius:14px}
 nav{display:flex;gap:26px;font-size:.84rem}
