@@ -120,3 +120,11 @@ h1.h2{font-size:clamp(1.6rem,3.3vw,2.2rem);line-height:1.2;margin-bottom:0}
 nav#menu{position:absolute;top:66px;left:0;right:0;flex-direction:column;gap:16px;background:var(--bg);padding:20px;border-bottom:1px solid var(--line);display:none}
 nav#menu.open{display:flex}nav a.active::after{display:none}
 .cta-box{padding:28px}}
+@media(max-width:600px){
+.section{padding:56px 0}.tight{padding:36px 0}.hero{padding:44px 0 36px}
+.cta .btn{width:100%;justify-content:center}
+.mini{display:grid;grid-template-columns:1fr 1fr;gap:16px 12px}
+.head{margin-bottom:24px}.card{padding:22px}.why-c{padding:18px}.cform{padding:20px}.cta-box{padding:24px}
+.steps{grid-template-columns:1fr 1fr}.devices{height:300px}.faq-grid{gap:20px}
+footer{padding-bottom:96px}.foot{flex-direction:column;align-items:flex-start}
+}
