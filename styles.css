@@ -51,6 +51,7 @@ h2{font-size:clamp(1.6rem,3.3vw,2.2rem);font-weight:800;line-height:1.2}
 .head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;flex-wrap:wrap;margin-bottom:34px}
 .sub{color:var(--muted);max-width:430px;font-size:.88rem}
 .grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:20px}
+.grid4{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
 .grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
 .card,.work,.why-c{background:linear-gradient(180deg,var(--card),#0a0616);border:1px solid var(--line);border-radius:16px;transition:.25s}
 .card{padding:26px;display:block}.card:hover,.work:hover{transform:translateY(-5px);border-color:var(--p)}
